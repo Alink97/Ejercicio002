@@ -17,7 +17,7 @@ class MotorTest {
 	void testPotencia() {
 		boolean rango;
 		int potencia = motor.potencia();
-		if(potencia>20 && potencia<40) {
+		if(potencia>=20 && potencia<=40) {
 			rango = true;
 		}else {
 			rango = false;
